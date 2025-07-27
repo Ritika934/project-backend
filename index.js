@@ -37,7 +37,7 @@ app.use(
       imgSrc: ["'self'", "https://*.googleusercontent.com", "data:"], // Allow images from your domain, googleusercontent.com, and data URIs
       scriptSrc: ["'self'", "'unsafe-inline'", "https://www.gstatic.com"], // Example: allow scripts from self, unsafe-inline for React dev, gstatic for Firebase
       styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"], // Example: allow styles from self, unsafe-inline for Tailwind/DaisyUI, Google Fonts
-      // Add other directives as needed (e.g., fontSrc, connectSrc)
+    
     },
   })
 );
